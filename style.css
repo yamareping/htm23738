@@ -1,0 +1,125 @@
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+header h1 {
+  float: left;
+}
+header ul {
+  float: left;
+  list-style-type: none;
+  margin-top: 3em;
+}
+header li {
+  float: left;
+  margin-left: 3em;
+}
+header div {
+  float: right;
+  margin-top: 3em;
+}
+
+/*second part */
+
+.main {
+  margin-top: 2em;
+  margin-bottom: 3em;
+  width: 680px;
+  overflow: auto;
+}
+.main img {
+  float: left;
+  margin-top: 2em;
+}
+
+.main div {
+  float: right;
+  margin-top: 3em;
+  
+}
+  
+.main h2 {
+  font-size: 40px;
+}
+
+.main ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main li {
+  font-size: 20px;
+}
+
+.main p {
+  font-size: 20px;
+}
+
+
+.main span {
+  font-size: 30px;
+}
+
+.main button {
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  background: -webkit-linear-gradient(top, #fe8511 0%, #dc5608 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #fe8511 0%, #dc5608 100%);
+  /* W3C */
+}
+/*third part */
+
+.additional {
+  margin: 0.5em 0 2em 1.5em; 
+  width: 900px;
+  overflow: auto;
+}
+
+.cover {
+  float: right;
+} 
+
+
+.additional h3 {
+  float: left;
+  font-size: 40px;
+  border: 3px #ccc double;
+  padding: 40px 15px;
+  width: 1em;
+  line-height: 1.3;
+  margin: 0 30px 0 15px;
+  
+}
+.additional ul {
+  float: left;
+  padding: 0;
+  margin: 0 25px 10px 0 ;
+  list-style-type: none;
+}
+.additional p {
+  clear: both;
+  text-align: center;
+}
+.additional figure {
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+}
+li figure {
+  border-top-width: 0;
+  margin: 0 0.5em 1em 0;
+}
+li: first-child figure {
+  border-top-width: 1px;
+}
